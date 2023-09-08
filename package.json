@@ -12,6 +12,7 @@
     "wrangler": "^3.0.0"
   },
   "dependencies": {
-    "postal-mime": "^1.0.16"
+    "postal-mime": "^1.0.16",
+    "s-ago": "^2.2.0"
   }
 }
