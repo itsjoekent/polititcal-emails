@@ -1,0 +1,8 @@
+name = "political-emails"
+main = "src/index.ts"
+compatibility_date = "2023-09-04"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "political-emails-dev"
+database_id = "2a3e1dd4-ce0e-41bb-8e44-77b7c3d53bea"
