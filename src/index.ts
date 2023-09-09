@@ -32,7 +32,7 @@ export default {
 
 		// TODO: Add pagination through query param?
 
-		const { results } = await env.DB.prepare('SELECT * FROM emails ORDER BY id DESC LIMIT 10').all();
+		const { results } = await env.DB.prepare('SELECT * FROM emails ORDER BY id DESC LIMIT 500').all();
 		const emails = results.map((result: any) => emailMarkup(JSON.parse(result.data)));
 
 		return new Response(pageMarkup(emails), {
