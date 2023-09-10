@@ -33,6 +33,7 @@ export default function pageMarkup(emails: string[]): string {
 						flex-direction: column;
 						width: 100%;
 						max-width: 700px;
+						min-height: 300px;
 						margin-top: 20vh;
 						margin-bottom: 36px;
 						text-align: center;
