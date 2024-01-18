@@ -90,7 +90,7 @@ export default function pageMarkup(emails: string[]): string {
 					const typewriter = new Typewriter('#politician-name', {
 						autoStart: true,
 						loop: true,
-						strings: ["Trump's", "Biden's", "Ramaswamy's", "DeSantis's", "Marianne's"],
+						strings: ["Trump's", "Biden's", "Haley's", "Bernie's"],
 					});
 				</script>
 			</body>
